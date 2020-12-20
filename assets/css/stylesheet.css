@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Barlow Condenced';
+    src: url('~assets/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf') format('truetype');
+}
+
 body {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 24px;
