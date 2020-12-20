@@ -18,7 +18,14 @@
                                 </div>
                             </div>
                             <div class="flex-item_SpItems" :style="{ 'backgroundColor': announce.Box_Color }"
-                                v-if="announce.Special_Announcement_Graphic_Link">
+                                v-if="announce.SpAn_LocalGraphicLink">
+                                <a v-bind:href="announce.Special_Announcement_Link" target="_blank">
+                                    <img style='height: 100%; width: 100%; object-fit: contain'
+                                        :src="require(`../assets/graphics/${ announce.SpAn_LocalGraphicLink}`)">
+                                </a>
+                            </div>
+                            <div class="flex-item_SpItems" :style="{ 'backgroundColor': announce.Box_Color }"
+                                v-else-if="announce.Special_Announcement_Graphic_Link">
                                 <a v-bind:href="announce.Special_Announcement_Link" target="_blank">
                                     <img style='height: 100%; width: 100%; object-fit: contain'
                                         :src="announce.Special_Announcement_Graphic_Link">
