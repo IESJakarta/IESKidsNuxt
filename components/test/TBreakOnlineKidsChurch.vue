@@ -76,7 +76,7 @@ export default {
 	created: function () {
 		axios
 			.get(
-				"https://api.steinhq.com/v1/storages/5d0374a0e8f87532b83a4e3b/Break_OnlineKidsChurchLinks"
+				"https://api.steinhq.com/v1/storages/5d0374a0e8f87532b83a4e3b/Test_Break_OnlineKidsChurchLinks"
 			)
 			.then((res) => {
 				this.links = res.data;
@@ -86,6 +86,6 @@ export default {
 </script>
 
 <style>
-@import "./../assets/css/stylesheet.css";
+@import "./../../assets/css/stylesheet.css";
 
 </style>

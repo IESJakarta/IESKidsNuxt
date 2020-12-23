@@ -9,6 +9,9 @@
       <div class="nav__link">
         <a href="https://www.youtube.com/IESKidsChurch" target="_blank">IES Kids YouTube</a>
       </div>
+            <div class="nav__link">
+        <a href="https://www.iesjakarta.org">IES Jakarta</a>
+      </div>
     </nav>
 </template>
 <script>
