@@ -41,9 +41,9 @@ export default {
     cursor: pointer;
     padding-bottom: .5vw;
 }
-.nav__link:active {
-    background-color: #818181;
-    border: 1px solid #818181;
+.nav__link:hover {
+    background-color: #acacacbb;
+    border: 1px solid #acacacbb;
     color: #fff;
     box-shadow: 5px 3px 5px 2px #3f41468c;
 }

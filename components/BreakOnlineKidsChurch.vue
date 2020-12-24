@@ -22,7 +22,7 @@
 						<h3>{{ link.SectionSubTitle }}</h3>
 					</div>
 					<div v-if="link.Text">
-						<p>{{ link.Text }}</p>
+						{{ link.Text }}
 					</div>
 					<div v-if="link.Graphic">
 						<div class="flex-item_1">
@@ -35,7 +35,7 @@
 								target="_blank"
 							>
 								<img
-									style="height: auto; width: 100%; object-fit: contain"
+									style="height: auto; max-width: 450px; object-fit: contain"
 									:src="link.Graphic"
 								/>
 							</a>
@@ -43,9 +43,7 @@
 					</div>
 					<div v-if="link.HTMLContent">
 						<div class="flex-item_1">
-							<p>
 								<span style="font-size: 80%" v-html="link.HTMLContent"></span>
-							</p>
 						</div>
 					</div>
 				</div>
@@ -72,7 +70,7 @@
 									</div>
                                     </div>
 									<div v-if="link.Text" class="flex-item_2">
-										<p>{{ link.Text }}</p>
+										{{ link.Text }}
 									</div>
 									<div v-if="link.Graphic">
 										<div class="flex-item_1">
@@ -93,12 +91,10 @@
 									</div>
 									<div v-if="link.HTMLContent">
 										<div class="flex-item_2">
-											<p>
 												<span
 													style="font-size: 80%"
 													v-html="link.HTMLContent"
 												></span>
-											</p>
 										</div>
 									</div>
 								</div>
