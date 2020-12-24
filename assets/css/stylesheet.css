@@ -1,5 +1,7 @@
 @font-face {
     font-family: 'Barlow Condenced';
+    font-style: normal;
+    font-display: swap;
     src: url('~assets/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf') format('truetype');
 }
 
