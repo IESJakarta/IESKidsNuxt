@@ -36,8 +36,8 @@ export default {
     justify-content: space-around;
     height: 2.3vw;
     font-size: 1.8vw;
-    border: 1px solid #8181813f;
-    background-color: #8181813f;
+    border: 1px solid (110, 110, 110, 0.7);
+    background-color: (110, 110, 110, 0.7);
     cursor: pointer;
     padding-bottom: .5vw;
 }
