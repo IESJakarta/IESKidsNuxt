@@ -52,4 +52,5 @@ created: function() {
 </script>
 
 <style>
+    @import '~assets/css/stylesheet.css';
 </style>

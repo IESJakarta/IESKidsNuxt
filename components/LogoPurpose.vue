@@ -24,6 +24,8 @@ export default {
 </script>
 
 <style>
+ @import './../assets/css/stylesheet.css';
+
 .logo {
 	width: 100%;
 }
