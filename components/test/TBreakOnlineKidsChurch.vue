@@ -36,7 +36,7 @@
 							>
 								<img
 									style="height: auto; width: 100%; object-fit: contain"
-									:src="link.Graphic_Link"
+									:src="link.Graphic"
 								/>
 							</a>
 						</div>
@@ -86,7 +86,7 @@
 											>
 												<img
 													style="height: auto; width: 100%; object-fit: contain"
-													:src="link.Graphic_Link"
+													:src="link.Graphic"
 												/>
 											</a>
 										</div>
