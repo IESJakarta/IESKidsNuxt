@@ -66,9 +66,7 @@
                                     <div class="flex-item_1">
 
 									<h2>
-										{{ link.SectionTitle }} <br />
-										{{ link.Week }}
-									</h2>
+										{{ link.SectionTitle }}									</h2>
 									<div v-if="link.SectionSubTitle">
 										<h3>{{ link.SectionSubTitle }}</h3>
 									</div>
