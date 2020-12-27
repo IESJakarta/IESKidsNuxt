@@ -4,7 +4,7 @@
 		<div class="logopurposeback-box" />
 
 		<div class="purposetext-box">
-			Helping parents raise their kids in Chirst.<br />
+			Helping parents raise their kids in Christ.<br />
 			Developing ministers in the Kingdom of God.
 		</div>
 		<div class="nav-box"></div>
