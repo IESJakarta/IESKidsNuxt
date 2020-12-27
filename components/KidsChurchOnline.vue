@@ -1,6 +1,7 @@
 <template>
 <div>
             <div class="flex-container_1" v-for="link in links" v-bind:key="link.Week">
+                <div v-if="link.show != Break">
 
                 <div class="flex-container_2A" style="text-align: center"
                     :style="{ 'backgroundColor': link.Week_Card_Color }">
@@ -195,6 +196,7 @@
 
                     </div>
 
+                </div>
                 </div>
             </div>
 </div>            
