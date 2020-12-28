@@ -18,8 +18,7 @@
 export default {
 };
 </script>
-<style>
-    @import './../assets/css/stylesheet.css';
+<style scoped>
 .nav {
     width: 100%;
     height: 3vw;
@@ -62,4 +61,7 @@ a:visited {
 a:hover {
   color: skyblue;
 }
+</style>
+<style>
+    @import './../assets/css/stylesheet.css';
 </style>
