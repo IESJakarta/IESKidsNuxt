@@ -35,7 +35,7 @@
 								target="_blank"
 							>
 								<img
-									style="height: auto; max-width: 450px; object-fit: contain"
+									style="height: auto; max-width: 350px; object-fit: contain"
 									:src="link.Graphic"
 								/>
 							</a>
