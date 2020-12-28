@@ -1,10 +1,7 @@
 @font-face {
-    font-family: 'Barlow Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('BarlowCondensed-Regular'),
-    url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+    font-family: "Barlow Condensed";
+    src: local("Barlow Condensed"),
+    url(~assets/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf) format("truetype");
 }
 
 body {
