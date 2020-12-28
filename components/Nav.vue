@@ -41,10 +41,25 @@ export default {
     cursor: pointer;
     padding-bottom: .5vw;
 }
+.nav__link:visited {
+  color: white;
+}
 .nav__link:hover {
     background-color: #acacacbb;
     border: 1px solid #acacacbb;
-    color: #fff;
+    color: skyblue;
     box-shadow: 5px 3px 5px 2px #3f41468c;
+}
+.nuxt-link-exact-active {
+  color: skyblue;
+}
+a {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: skyblue;
 }
 </style>
