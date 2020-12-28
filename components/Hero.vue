@@ -1,7 +1,6 @@
 <template>
   <div>
     <div class="parallax">
-          <LogoPurpose />
         <div style="height:45vw">
         </div>
     </div>
