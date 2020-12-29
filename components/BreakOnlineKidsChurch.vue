@@ -30,7 +30,7 @@
 								v-bind:href="
 									link.Graphic_Link +
 									'&ref=Kids_Break_Header_Graphic_Link_' +
-									link.Week
+									link.SectionTitle
 								"
 								target="_blank"
 							>
@@ -77,8 +77,8 @@
 											<a
 												v-bind:href="
 													link.Graphic_Link +
-													'&ref=Kids_Break_Header_Graphic_Link_' +
-													link.Week
+													'&ref=IES_Kids_Break_Link_' +
+													link.SectionTitle
 												"
 												target="_blank"
 											>
