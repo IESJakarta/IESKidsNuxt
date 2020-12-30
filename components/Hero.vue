@@ -12,7 +12,6 @@
   background-color: white;
   height: 18.5vw;
   border-radius: 15px;
-  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
 }
 .parallax {
   /* The image used */
