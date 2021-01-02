@@ -36,7 +36,7 @@
 							>
 								<img
 									style="height: auto; max-width: 350px; object-fit: contain"
-									:src="require(`../../assets/graphics/${ link.ifLocalGraphic }`)"
+									:src="require(`./../../assets/graphics/${ link.ifLocalGraphic }`)"
 								/>
 							</a>
 						</div>
@@ -102,7 +102,7 @@
 											>
 												<img
 													style="height: auto; width: 100%; object-fit: contain"
-													:src="require(`../../assets/graphics/${ link.ifLocalGraphic }`)"
+													:src="require(`./../../assets/graphics/${ link.ifLocalGraphic }`)"
 												/>
 											</a>
 										</div>
