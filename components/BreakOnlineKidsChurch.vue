@@ -77,7 +77,7 @@
 											<a
 												v-bind:href="
 													link.Graphic_Link +
-													'&ref=IES_Kids_Break_Link_' +
+													'&ref=Kids_Break_Header_Graphic_Link_' +
 													link.SectionTitle
 												"
 												target="_blank"
