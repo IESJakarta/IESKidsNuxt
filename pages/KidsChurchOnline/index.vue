@@ -1,6 +1,9 @@
 <template>
   <div>
     <div>
+      <BreakOnlineKidsChurch />
+    </div>
+    <div>
       <AnnounceTop />
     </div>
     <br>
