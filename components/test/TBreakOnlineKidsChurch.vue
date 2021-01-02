@@ -24,7 +24,24 @@
 					<div v-if="link.Text">
 						{{ link.Text }}
 					</div>
-					<div v-if="link.Graphic">
+					<div v-if="link.ifLocalGraphic">
+						<div class="flex-item_1">
+							<a
+								v-bind:href="
+									link.Graphic_Link +
+									'&ref=Kids_Break_Header_Graphic_Link_' +
+									link.SectionTitle
+								"
+								target="_blank"
+							>
+								<img
+									style="height: auto; max-width: 350px; object-fit: contain"
+									:src="require(`../../assets/graphics/${ link.ifLocalGraphic }`)"
+								/>
+							</a>
+						</div>
+					</div>
+					<div v-else-if="link.Graphic">
 						<div class="flex-item_1">
 							<a
 								v-bind:href="
@@ -72,7 +89,26 @@
 									<div v-if="link.Text" class="flex-item_2">
 										{{ link.Text }}
 									</div>
-									<div v-if="link.Graphic">
+
+									<div v-if="link.ifLocalGraphic">
+										<div class="flex-item_1">
+											<a
+												v-bind:href="
+													link.Graphic_Link +
+													'&ref=Kids_Break_Header_Graphic_Link_' +
+													link.SectionTitle
+												"
+												target="_blank"
+											>
+												<img
+													style="height: auto; width: 100%; object-fit: contain"
+													:src="require(`../../assets/graphics/${ link.ifLocalGraphic }`)"
+												/>
+											</a>
+										</div>
+									</div>
+
+									<div v-else-if="link.Graphic">
 										<div class="flex-item_1">
 											<a
 												v-bind:href="
