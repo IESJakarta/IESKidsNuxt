@@ -44,7 +44,21 @@
 </template>
 <script>
 export default {
-	layout: "noHero",
+    layout: "noHero",
+    head() {
+      return {
+        title: this.title,
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            'og:description': 'Elementary Game Day 2021 02 04',
+            'og:title': 'IES Kids Church',
+            'og:url': 'https://ieskids.org',
+            'og:image': 'https://ieskids.org/_nuxt/img/ElmGameTime20210204-med.a0dd5ac.jpg'
+          }
+        ]
+      }
+    }
 };
 </script>
 <style>
