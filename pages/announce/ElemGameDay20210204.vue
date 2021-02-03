@@ -53,7 +53,7 @@ export default {
           {
             'og:description': 'Elementary Game Day 2021 02 04',
             'og:title': 'IES Kids Church',
-            'og:url': 'https://ieskids.org',
+            'og:url': 'https://ieskids.org/announce/elemgameday20210204/',
             'og:image': 'https://ieskids.org/_nuxt/img/ElmGameTime20210204-med.a0dd5ac.jpg'
           }
         ]
