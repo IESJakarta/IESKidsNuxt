@@ -50,13 +50,12 @@ export default {
         title: this.title,
         meta: [
           // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-          {
-            'og:description': 'Elementary Game Day 2021 02 04',
-            'og:title': 'IES Kids Church',
-            'og:url': 'https://ieskids.org/announce/elemgameday20210204/',
-            'og:image': 'https://ieskids.org/_nuxt/img/ElmGameTime20210204-med.a0dd5ac.jpg'
-          }
-        ]
+          
+          { hid: 'og:description', name: 'og:description', content: 'Elementary Game Day 2021 02 04' },
+          { hid: 'og:title', name: 'og:title', content: 'IES Kids Church' },
+          { hid: 'og:image', name: 'og:image', content: 'https://ieskids.org/_nuxt/img/ElmGameTime20210204-med.a0dd5ac.jpg' },
+          { hid: 'og:url', name: 'og:url', content: 'https://ieskids.org/announce/elemgameday20210204/' },
+          ]
       }
     }
 };
