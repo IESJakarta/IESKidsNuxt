@@ -54,7 +54,7 @@
 								<strong>Wednesdays</strong>, 4PM<br />
 								<strong>Start Date</strong>: 10 February 2021<br />
 								<strong>End Date</strong>: 17 March 2021<br />
-								<strong>LG Registration Full</strong>
+								<!--<strong>LG Registration Full</strong>-->
 								<a
 									href="https://iesjakarta.churchcenter.com/registrations/events/661302&ref=LinkToWisdomLG"
 									target="_blank"
@@ -80,7 +80,7 @@
 								<strong>Thursdays</strong>, 4PM<br />
 								<strong>Start Date</strong>: 11 February 2021<br />
 								<strong>End Date</strong>: 18 March 2021<br />
-								<strong>LG Registration Full</strong>
+								<!--<strong>LG Registration Full</strong>-->
 								<a
 									href="https://iesjakarta.churchcenter.com/registrations/events/661304&ref=LinkToTruthLG"
 									target="_blank"
