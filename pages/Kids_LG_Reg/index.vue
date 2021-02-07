@@ -42,7 +42,7 @@
 						<div class="grid_Internal">
 							<div>
 								<img
-									src="~/assets/graphics/Kids_LG_Reg/WisdomLGLogoClosed.png"
+									src="~/assets/graphics/Kids_LG_Reg/WisdomLGClosed.png"
 									alt="Truth LG for Kids Every Wednesday"
 									width="auto"
 									height="250px"
