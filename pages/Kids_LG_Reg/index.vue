@@ -33,8 +33,10 @@
 						These LifeGroups will be held on the Zoom platform. One each on
 						Wednesdays and Thursdays. Please choose the group that best suits
 						your child’s schedule. Register as soon as possible; groups are
-						limited to 12 participants each. As groups are filled registration
-						will be closed.
+						limited to 12 participants each. <strong> Registration for this 
+            round of IES Kids LGs is closed.</strong>
+            <!--As groups are filled registration
+						will be closed.-->
 					</p>
 				</div>
 				<div class="grid_Internal">
