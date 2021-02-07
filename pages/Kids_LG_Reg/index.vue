@@ -68,7 +68,7 @@
 						<div class="grid_Internal">
 							<div>
 								<img
-									src="~/assets/graphics/Kids_LG_Reg/TruthLGLogo.png"
+									src="~/assets/graphics/Kids_LG_Reg/TruthLGClosed.png"
 									alt="Truth LG for Kids Every Thursday"
 									width="auto"
 									height="250px"
@@ -80,12 +80,12 @@
 								<strong>Thursdays</strong>, 4PM<br />
 								<strong>Start Date</strong>: 11 February 2021<br />
 								<strong>End Date</strong>: 18 March 2021<br />
-								<!--<strong>LG Registration Full</strong>-->
-								<a
+								<strong>LG Registration Full</strong>
+								<!--<a
 									href="https://iesjakarta.churchcenter.com/registrations/events/661304&ref=LinkToTruthLG"
 									target="_blank"
 									><strong>CLICK HERE TO REGISTER</strong></a
-								>
+								>-->
 							</div>
 						</div>
 					</div>
