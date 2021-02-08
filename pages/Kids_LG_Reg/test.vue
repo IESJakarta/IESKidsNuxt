@@ -7,8 +7,14 @@
 			style="
 				flex-direction: column;
 				justify-content: center;
-				align-items: center;"
+				align-items: center;
+			"
 		>
+			<div>
+				<p></p>
+				TEST PAGE ;-)
+				<p></p>
+			</div>
 			<!-- this div covers us if nothing is going on and there's not data to show. -->
 			<div
 				v-if="regPageData.length == 0"
@@ -104,7 +110,7 @@
 				</div>
 				<div class="grid_Internal">
 					<div v-for="link in regPageData" v-bind:key="link.Title">
-						<div v-if="link.Show == 'TRUE'" class="grid_Internal">
+						<div v-if="link.Test == 'TRUE'" class="grid_Internal">
 							<div
 								class="flex-item_SpText"
 								:style="{ 'background-color': link.BackgroundColor }"
@@ -168,6 +174,8 @@
 					</p>
 				</div>
 			</div>
+
+			<br />
 		</div>
 	</div>
 </template>
@@ -184,7 +192,7 @@ export default {
 	},
 	computed: {
 		offeredLGCount() {
-			return this.regPageData.filter((item) => item.Show == "TRUE").length;
+			return this.regPageData.filter((item) => item.Test == "TRUE").length;
 		},
 		openRegLG() {
 			return this.regPageData.filter((item) => item.Open == "TRUE");
@@ -203,5 +211,9 @@ export default {
 </script>
 
 <style>
-
+/* Sample `apply` at-rules with Tailwind CSS
+.container {
+@apply min-h-screen flex justify-center items-center text-center mx-auto;
+}
+*/
 </style>
