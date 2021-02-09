@@ -103,7 +103,7 @@
 						will be closed.-->
 				</div>
 				<div class="grid_Internal">
-					<div v-for="link in regPageData" v-bind:key="link.Title">
+					<div v-for="link in offeredLGShow" v-bind:key="link.Title">
 						<div v-if="link.Show == 'TRUE'" class="grid_Internal">
 							<div
 								class="flex-item_SpText"
@@ -186,14 +186,17 @@ export default {
 		offeredLGCount() {
 			return this.regPageData.filter((item) => item.Show == "TRUE").length;
 		},
+		offeredLGShow() {
+			return this.regPageData.filter((item) => item.Show == "TRUE");
+		},
 		openRegLG() {
-			return this.regPageData.filter((item) => item.Open == "TRUE");
+			return this.offeredLGShow.filter((item) => item.Open == "TRUE");
 		},
 		openRegLGCount() {
 			return this.openRegLG.length;
 		},
 		closedRegLG() {
-			return this.regPageData.filter((item) => item.Open == "FALSE");
+			return this.offeredLGShow.filter((item) => item.Open == "FALSE");
 		},
 		closedRegLGCount() {
 			return this.closedRegLG.length;
