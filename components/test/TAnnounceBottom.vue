@@ -33,21 +33,17 @@
 </template>
 
 <script>
-import axios from 'axios';
-
 export default {
     name: 'AnBottom',
     data () {
         return {
-            announcements: null,
-        };
+            announcements: []
+        }
 },
-created: function() {
-    axios
-    .get('https://api.steinhq.com/v1/storages/5d0374a0e8f87532b83a4e3b/TestSpAnnouncement_Output')
-    .then(res => {
-        this.announcements = res.data;
-    })
+async fetch() {
+    this.announcements = await fetch(
+        'https://api.steinhq.com/v1/storages/5d0374a0e8f87532b83a4e3b/TestSpAnnouncement_Output'
+        ).then(res => res.json())
   }
 }
 </script>
