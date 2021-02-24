@@ -2,14 +2,7 @@
 	<div class="logo-container">
 		<div class="whiteback-box" />
 		<div class="logopurposeback-box" />
-		<div class="purposetext-box">
-			Helping parents raise their kids in Christ.<br />
-			Developing ministers in the Kingdom of God.
-		</div>
-		<div class="nav-box"></div>
-		<div class="nav-menu">
-			<Nav />
-		</div>
+
 		<div class="logo-box">
 			<img class="logo" src="~assets/graphics/IES_Kids_Logo.svg" />
 		</div>
@@ -71,21 +64,5 @@ export default {
 	height: 96%;
 	border-radius: 1vw;
 	box-shadow: 0.2vw 0.2vw 0.6vw 0.2vw rgba(0, 0, 0, 0.816);
-}
-.nav-box {
-	grid-row: 3;
-	grid-column-start: 1;
-	grid-column-end: span 4;
-	background-color: rgb(65, 65, 65);
-	height: 3.4vw;
-	border-radius: 1vw;
-	box-shadow: 0.2vw 0.2vw 0.6vw 0.2vw rgba(0, 0, 0, 0.816);
-}
-.nav-menu {
-	grid-row: 3;
-	grid-column-start: 3;
-	grid-column-end: span 2;
-	height: 3.4vw;
-	border-radius: 1vw;
 }
 </style>

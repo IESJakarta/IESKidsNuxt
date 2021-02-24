@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="whitespace" />
-    <div class="parallax">
+    <div class="herophoto">
         <div style="height:45vw">
         </div>
     </div>
@@ -10,13 +10,12 @@
 <style>
 .whitespace {
   background-color: white;
-  height: 18.5vw;
+  height: 2vw;
   border-radius: 15px;
 }
-.parallax {
+.herophoto {
   /* The image used */
   background-image: url('./../assets/graphics/Photos/GroupCityWalkCropNarrow.jpg');
-
 
   /* Full height */
   height: 45vw; 
@@ -28,6 +27,5 @@
   background-size: cover;
   border-radius: 15px;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-
 }
 </style>
