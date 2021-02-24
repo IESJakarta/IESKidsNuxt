@@ -5,7 +5,7 @@
     </div>
 
     <div class="nav__link">
-      <nuxt-link to="/Kids Church Online">KidsChurchOnline</nuxt-link>
+      <nuxt-link to="/KidsChurchOnline">KidsChurchOnline</nuxt-link>
     </div>
 
     <div class="nav__link">
