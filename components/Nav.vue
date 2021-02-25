@@ -9,7 +9,7 @@
     </div>
 
     <div class="nav__link">
-      <a href="https://www.iesjakarta.org">IES Jakarta</a>
+      <a href="https://www.iesjakarta.org" target="_blank">IES Jakarta</a>
     </div>
 
       <div class="l1">
