@@ -147,7 +147,7 @@
                                         <span style="font-size: 50%">For our kids 10 to 12 years old. </span></h2a>
                                 </h2>
                             </div>
-                            <img style='height: auto; width: 100%; object-fit: contain'
+                            <img style='height: auto; width: 80%; object-fit: contain'
                                         src="~/assets/graphics/PreTeens_Zoom_MeetUp.svg">
 
 
