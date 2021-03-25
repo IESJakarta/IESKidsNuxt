@@ -52,7 +52,7 @@
 				<div style="text-align: center; width: 80%">
 					<p>
 						<strong>
-							We have {{ offeredLGCount }} upcomming IES Kids LifeGroup<span
+							We have {{ offeredLGCount }} upcoming IES Kids LifeGroup<span
 								v-if="offeredLGCount > 1"
 								>s
 							</span>
