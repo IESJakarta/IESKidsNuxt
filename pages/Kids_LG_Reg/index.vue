@@ -56,7 +56,7 @@
 								v-if="offeredLGCount > 1"
 								>s
 							</span>
-							open for registration. Our first meeting for this round starts
+							open for registration.<br> Our first meeting for this round starts
 							{{ regPageData[0].FirstSessionDate }}!
 						</strong>
 					</p>
