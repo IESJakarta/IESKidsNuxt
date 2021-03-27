@@ -113,7 +113,7 @@
               >
                 <div class="grid_Internal">
                   <div v-if="link.Open == 'TRUE'">
-                    <div><a :href="link.RegLink" target="_blank">
+                    <a :href="link.RegLink" target="_blank">
                       <img
                         :src="
                           require('~/assets/graphics/Kids_LG_Reg/' +
@@ -123,7 +123,7 @@
                         width="auto"
                         height="250px"
                     /></a></div>
-                    <div>
+                    <div v-if="link.Open == 'TRUE'">
                       <h2>{{ link.Title }}</h2>
                       <br />
                       <strong>{{ link.MeetingDay }}</strong
@@ -137,9 +137,8 @@
                         <strong>CLICK HERE TO REGISTER</strong></a
                       >
                     </div>
-                  </div>
 
-                  <div v-else-if="link.Open == 'FALSE'">
+                  <div v-if="link.Open == 'FALSE'">
                     <img
                       :src="
                         require('~/assets/graphics/Kids_LG_Reg/' +
@@ -149,7 +148,8 @@
                       width="auto"
                       height="250px"
                     />
-
+				  </div>
+                  <div v-if="link.Open == 'FALSE'">
                     <div>
                       <h2>{{ link.Title }}</h2>
                       <br />
