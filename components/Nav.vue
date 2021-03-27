@@ -7,6 +7,10 @@
     <div class="nav__link">
       <nuxt-link to="/KidsChurchOnline">KidsChurchOnline</nuxt-link>
     </div>
+    
+    <div class="nav__link">
+      <nuxt-link to="/kids_lg_reg">IES Kids LG Registration</nuxt-link>
+    </div>
 
     <div class="nav__link">
       <a href="https://www.iesjakarta.org" target="_blank">IES Jakarta</a>
