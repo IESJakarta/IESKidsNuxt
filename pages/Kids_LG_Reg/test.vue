@@ -105,8 +105,8 @@
 						will be closed.-->
         </div>
         <div class="grid_Internal">
-          <div v-for="link in offeredLGShow" v-bind:key="link.Title">
-            <div v-if="link.Show == 'TRUE'" class="grid_Internal">
+          <div v-for="link in offeredLGTest" v-bind:key="link.Title">
+            <div v-if="link.Test == 'TRUE'" class="grid_Internal">
               <div
                 class="flex-item_SpText"
                 :style="{ 'background-color': link.BackgroundColor }"
