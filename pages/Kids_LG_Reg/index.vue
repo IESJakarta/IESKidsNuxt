@@ -106,9 +106,7 @@
         </div>
         <div class="grid_Internal">
           <div v-for="link in offeredLGShow" v-bind:key="link.Title">
-            <div v-if="link.Show == 'TRUE'" class="grid_Internal">
-              <div
-                class="flex-item_SpText"
+            <div v-if="link.Show == 'TRUE'" class="grid_Internal flex-item_SpText"
                 :style="{ 'background-color': link.BackgroundColor }"
               >
                 <div class="grid_Internal">
@@ -122,21 +120,21 @@
                         :alt="link.Title + 'for Kids Every ' + link.MeetingDay"
                         width="auto"
                         height="250px"
-                    /></a></div>
-                    <div v-if="link.Open == 'TRUE'">
-                      <h2>{{ link.Title }}</h2>
-                      <br />
-                      <strong>{{ link.MeetingDay }}</strong
-                      >, {{ link.MeetingTime }}<br />
-                      <strong>Start Date</strong>: {{ link.FirstSessionDate
-                      }}<br />
-                      <strong>End Date</strong>: {{ link.LastSessionDate
-                      }}<br />
-                      <!--<strong>LG Registration Full</strong>-->
-                      <a :href="link.RegLink" target="_blank">
-                        <strong>CLICK HERE TO REGISTER</strong></a
-                      >
-                    </div>
+                    /></a>
+                  </div>
+                  <div v-if="link.Open == 'TRUE'">
+                    <h2>{{ link.Title }}</h2>
+                    <br />
+                    <strong>{{ link.MeetingDay }}</strong
+                    >, {{ link.MeetingTime }}<br />
+                    <strong>Start Date</strong>: {{ link.FirstSessionDate
+                    }}<br />
+                    <strong>End Date</strong>: {{ link.LastSessionDate }}<br />
+                    <!--<strong>LG Registration Full</strong>-->
+                    <a :href="link.RegLink" target="_blank">
+                      <strong>CLICK HERE TO REGISTER</strong></a
+                    >
+                  </div>
 
                   <div v-if="link.Open == 'FALSE'">
                     <img
@@ -148,7 +146,7 @@
                       width="auto"
                       height="250px"
                     />
-				  </div>
+                  </div>
                   <div v-if="link.Open == 'FALSE'">
                     <div>
                       <h2>{{ link.Title }}</h2>
@@ -188,7 +186,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 <script>
 import axios from "axios";
