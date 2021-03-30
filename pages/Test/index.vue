@@ -1,27 +1,25 @@
 <template>
   <div>
     <div>
-      <TBreakOnlineKidsChurch />
+      <BreakOnlineKidsChurch />
     </div>
-
     <div>
-      <TAnnounceTop />
-    </div>
-    <br>
-    <div>
-      <TKidsChurchOnline />
+      <AnnounceTop />
     </div>
     <br>
     <div>
-      <TAnnounceBottom />
+      <KidsChurchOnline />
+    </div>
+    <br>
+    <div>
+      <AnnounceBottom />
       </div>
   </div>
 </template>
 
 <script>
-
 </script>
 
 <style>
-</style>
 
+</style>
