@@ -3,7 +3,6 @@
 		<div
 			v-for="link in links"
 			v-bind:key="link.SortOrder"
-			class="flex-container_1"
 		>
 			<div><br /></div>
 
@@ -71,7 +70,7 @@
 					:style="{ backgroundColor: link.Week_Card_Color }"
 				>
 					<div class="grid_Internal">
-						<div v-for="link in links.slice(1)" v-bind:key="link.SortOrder">
+						<div v-for="link in links.slice(2)" v-bind:key="link.SortOrder">
 							<div v-if="link.Category === 'Section Content'">
 								<div
 									class="flex-container_3A"
@@ -168,5 +167,5 @@ export default {
 </script>
 
 <style>
-    @import '~assets/css/stylesheet.css';
+    @import './../../assets/css/stylesheet.css';
 </style>
