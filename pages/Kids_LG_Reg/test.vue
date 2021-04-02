@@ -9,7 +9,7 @@
 				justify-content: center;
 				align-items: center;"
     >
-      <!-- this div covers us if nothing is going on and there's not data to show. -->
+      <!-- this div covers us if nothing is going on and there's no data to show. -->
       <div
         v-if="regPageData.length == 0"
         class="flex-container_2A"
@@ -33,7 +33,7 @@
               target="”_blank”"
               >IES Kids WhatsApp number</a
             >
-            by cliking the link. If you prefer email, you may email Kristin, our
+            by clicking the link. If you prefer email, you may email Kristin, our
             IES Kids Ministry Director, at her email address:
             <a href="mailto:kristin@iesjakarta.org"> kristin@iesjakarta.org</a>
           </p>
